@@ -177,7 +177,7 @@ get_header();
                     </div>
 
                     <div class="mb-5">
-                        **報告格式為jpg/pdf/mp4 <br>報告檔案大小上限為 20MB
+                        **報告格式為jpg/pdf/mp4 <br>報告檔案大小上限為 40MB
                     </div>
 
                     <div class=""><input type="submit" value="上載檔案" name="submit"></div>
@@ -343,8 +343,8 @@ get_header();
         })
         $('#file_upload').on('change', function() {
             var size = this.files[0].size / 1024 / 1024;
-            if (size > 20) {
-                show_dialog('報告檔案大小上限為 20MB');
+            if (size > 40) {
+                show_dialog('報告檔案大小上限為 40MB');
 
                 $(this).val('');
             }
@@ -353,8 +353,8 @@ get_header();
 
         $('#file_upload2').on('change', function() {
             var size = this.files[0].size / 1024 / 1024;
-            if (size > 20) {
-                show_dialog('報告檔案大小上限為 20MB');
+            if (size > 40) {
+                show_dialog('報告檔案大小上限為 40MB');
 
                 $(this).val('');
             }
