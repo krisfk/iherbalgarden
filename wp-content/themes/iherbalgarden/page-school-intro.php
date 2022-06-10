@@ -84,7 +84,7 @@ if($school_logo_url)
                         <?php echo get_field('school_intro');?>
 
 
-                        <h4 class="mt-4">園地公展：</h4>
+                        <h4 class="mt-4">園地全屏幕公展：</h4>
                         <div>
                             <?php 
                             if(get_field('visual_tour_link'))
