@@ -139,7 +139,8 @@ if($school_logo_url)
 
                         <table>
                             <?php
-                            if(($mid_report_id && $mid_report_approval) || ($final_report_id && $final_report_approval))
+                            // if(($mid_report_id && $mid_report_approval) || ($final_report_id && $final_report_approval))
+                            if(($mid_report_id && $mid_report_approval))
                             {
                             ?>
                             <tr>
