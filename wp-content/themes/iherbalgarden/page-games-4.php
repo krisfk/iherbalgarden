@@ -65,7 +65,7 @@ get_header();
     $(function() {
 
         $('.games').addClass('active');
-        $('.sm-games-3').addClass('active');
+        $('.sm-games-4').addClass('active');
 
 
     })
