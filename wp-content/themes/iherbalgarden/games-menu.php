@@ -6,5 +6,13 @@
             </a></li>
         <li><a href="<?php echo get_site_url();?>/games-3" class="sm-games-3">猜猜中草藥名稱？
             </a></li>
+        <li><a href="<?php echo get_site_url();?>/games-4" class="sm-games-4">中醫藥文化概念知多少？
+            </a></li>
+        <li><a href="<?php echo get_site_url();?>/games-5" class="sm-games-5">哪種是中藥植物？
+
+            </a></li>
+
+
+
     </ul>
 </div>
