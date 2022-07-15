@@ -223,7 +223,7 @@ if($school_logo_url)
                 </div> -->
                     <div class="col-lg-6 col-md-12 col-sm-12 col-12 mb-4">
 
-                        <table style="display:none;">
+                        <table style="opacity:0">
                             <tr>
                                 <td>
                                     <div class="">
@@ -243,7 +243,7 @@ if($school_logo_url)
                                         <div class="like-num">
 
                                             <?php
-echo get_field('like_count');
+                                    echo get_field('like_count');
                                     // $args = array('p' => $school_id, 'post_type' => 'school');
 
                                     // $school = new WP_Query($args);
