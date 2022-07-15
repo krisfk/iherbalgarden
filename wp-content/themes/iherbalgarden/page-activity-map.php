@@ -44,7 +44,7 @@ if(!is_user_logged_in())
     </h2>
 
     <div class="position-relative  desktop-map-div">
-        <a href="<?php echo get_site_url();?>/school-intro/?sch=101" class="pin-btn pin-btn-1">
+        <a href="<?php echo get_site_url();?>/school-intro/?sch=812" class="pin-btn pin-btn-1">
             東華三院李東海小學
 
             <div class="green-tri"></div>
@@ -111,8 +111,8 @@ if(!is_user_logged_in())
 
 
 
-        <img class="w-100"
-            src="http://iherbalgarden.com/wp-content/themes/iherbalgarden/assets/images/island.png" alt="">
+        <img class="w-100" src="http://iherbalgarden.com/wp-content/themes/iherbalgarden/assets/images/island.png"
+            alt="">
     </div>
 
     <div class="container mobile-map">
@@ -124,15 +124,13 @@ if(!is_user_logged_in())
             </div>
             <div class="col-lg-4 col-md-4 col-sm-6 col-6  mb-3">
                 <a href="<?php echo get_site_url();?>/school-intro/?sch=98" class="map-a">
-                    <img class="w-100" src="http://iherbalgarden.com/wp-content/uploads/2021/12/map-pcs-2.jpg"
-                        alt="">
+                    <img class="w-100" src="http://iherbalgarden.com/wp-content/uploads/2021/12/map-pcs-2.jpg" alt="">
                 </a>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-6 col-6  mb-3">
                 <a href="<?php echo get_site_url();?>/school-intro/?sch=100" class="map-a">
 
-                    <img class="w-100" src="http://iherbalgarden.com/wp-content/uploads/2021/12/map-pcs-3.jpg"
-                        alt="">
+                    <img class="w-100" src="http://iherbalgarden.com/wp-content/uploads/2021/12/map-pcs-3.jpg" alt="">
                 </a>
             </div>
 
