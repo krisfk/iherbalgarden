@@ -756,91 +756,94 @@ function like_school($request)
 {
 
 	$school_id= $request->get_param( 'school_id' );
+	$count= $request->get_param( 'count' );
+
+	update_field('like_count', $count,$school_id);
 
 
-	# PHP7+
-	$userIP = $_SERVER['HTTP_CLIENT_IP'] 
-	?? $_SERVER["HTTP_CF_CONNECTING_IP"] # when behind cloudflare
-	?? $_SERVER['HTTP_X_FORWARDED'] 
-	?? $_SERVER['HTTP_X_FORWARDED_FOR'] 
-	?? $_SERVER['HTTP_FORWARDED'] 
-	?? $_SERVER['HTTP_FORWARDED_FOR'] 
-	?? $_SERVER['REMOTE_ADDR'] 
-	?? '0.0.0.0';
-
-	# Earlier than PHP7
-	$userIP = '0.0.0.0';
-
-	if (isset($_SERVER['HTTP_CLIENT_IP'])) {
-	$userIP = $_SERVER['HTTP_CLIENT_IP'];
-	} elseif (isset($_SERVER['HTTP_CF_CONNECTING_IP'])) {
-	# when behind cloudflare
-	$userIP = $_SERVER['HTTP_CF_CONNECTING_IP']; 
-	} elseif (isset($_SERVER['HTTP_X_FORWARDED_FOR'])) {
-	$userIP = $_SERVER['HTTP_X_FORWARDED_FOR'];
-	} elseif (isset($_SERVER['HTTP_X_FORWARDED'])) {
-	$userIP = $_SERVER['HTTP_X_FORWARDED'];
-	} elseif (isset($_SERVER['HTTP_FORWARDED_FOR'])) {
-	$userIP = $_SERVER['HTTP_FORWARDED_FOR'];
-	} elseif (isset($_SERVER['HTTP_FORWARDED'])) {
-	$userIP = $_SERVER['HTTP_FORWARDED'];
-	} elseif (isset($_SERVER['REMOTE_ADDR'])) {
-	$userIP = $_SERVER['REMOTE_ADDR'];
-	}
+	// $args = array('p' => $school_id, 'post_type' => 'school');
+	// $school = new WP_Query($args);
 	
-	// echo $userIP;
-	// echo date('d/m/Y');
-
-	$args = array('p' => $school_id, 'post_type' => 'school');
-
-	$school = new WP_Query($args);
+	// if($school->have_posts())
+	// {
+	// 	$school->the_post();
+	// 	update_field('like_count', $count);
+	// }
 	
-	$count=0;
-	date_default_timezone_set('Asia/Hong_Kong');
-
-	// echo date('d/m/Y');
-
-	if($school->have_posts())
-	{
-		$school->the_post();
-		// $like_record = get_sub_field('like_record');
-
-		if( have_rows('like_record') ){
-
-			while( have_rows('like_record') ) { 
-						the_row();
-						// echo 'get_sub_field("ip")'.get_sub_field('ip');
-						// echo 'get_sub_field("like_date")'.get_sub_field('like_date');
-						if(get_sub_field('ip')==$userIP && get_sub_field('like_date')==date('d/m/Y'))
-					{
-						$count++;
-					}
-		}
-	  }
-	}
-	// echo $count;
-	
-//	$loop = new WP_Query( $mypost );
-
 	
 
-	if($count>=5)
-	{
-		echo json_encode(array("status"=>"-1", "msg"=>"你今天已Like了這間學校5次"));
-	}
-	else
-	{
+	// # PHP7+
+	// $userIP = $_SERVER['HTTP_CLIENT_IP'] 
+	// ?? $_SERVER["HTTP_CF_CONNECTING_IP"] # when behind cloudflare
+	// ?? $_SERVER['HTTP_X_FORWARDED'] 
+	// ?? $_SERVER['HTTP_X_FORWARDED_FOR'] 
+	// ?? $_SERVER['HTTP_FORWARDED'] 
+	// ?? $_SERVER['HTTP_FORWARDED_FOR'] 
+	// ?? $_SERVER['REMOTE_ADDR'] 
+	// ?? '0.0.0.0';
 
-	// echo date('d/m/Y');
-		$row = array(
-			'ip'   => $userIP, //IP
-			'like_date'   => date('d/m/Y')
-		);
-		add_row('like_record', $row,$school_id);
-		echo json_encode(array("status"=>"1", "msg"=>"like successfully"));
+	// # Earlier than PHP7
+	// $userIP = '0.0.0.0';
+
+	// if (isset($_SERVER['HTTP_CLIENT_IP'])) {
+	// $userIP = $_SERVER['HTTP_CLIENT_IP'];
+	// } elseif (isset($_SERVER['HTTP_CF_CONNECTING_IP'])) {
+	// # when behind cloudflare
+	// $userIP = $_SERVER['HTTP_CF_CONNECTING_IP']; 
+	// } elseif (isset($_SERVER['HTTP_X_FORWARDED_FOR'])) {
+	// $userIP = $_SERVER['HTTP_X_FORWARDED_FOR'];
+	// } elseif (isset($_SERVER['HTTP_X_FORWARDED'])) {
+	// $userIP = $_SERVER['HTTP_X_FORWARDED'];
+	// } elseif (isset($_SERVER['HTTP_FORWARDED_FOR'])) {
+	// $userIP = $_SERVER['HTTP_FORWARDED_FOR'];
+	// } elseif (isset($_SERVER['HTTP_FORWARDED'])) {
+	// $userIP = $_SERVER['HTTP_FORWARDED'];
+	// } elseif (isset($_SERVER['REMOTE_ADDR'])) {
+	// $userIP = $_SERVER['REMOTE_ADDR'];
+	// }
+	
+	// // echo $userIP;
+	// // echo date('d/m/Y');
+
+	// $args = array('p' => $school_id, 'post_type' => 'school');
+
+	// $school = new WP_Query($args);
+	
+	// $count=0;
+	// date_default_timezone_set('Asia/Hong_Kong');
+
+	// if($school->have_posts())
+	// {
+	// 	$school->the_post();
+
+	// 	if( have_rows('like_record') ){
+
+	// 		while( have_rows('like_record') ) { 
+	// 					the_row();
+	// 					if(get_sub_field('ip')==$userIP && get_sub_field('like_date')==date('d/m/Y'))
+	// 				{
+	// 					$count++;
+	// 				}
+	// 	}
+	//   }
+	// }
+	
+
+	// if($count>=5)
+	// {
+	// 	echo json_encode(array("status"=>"-1", "msg"=>"你今天已Like了這間學校5次"));
+	// }
+	// else
+	// {
+	// $row = array(
+	// 		'ip'   => $userIP, //IP
+	// 		'like_date'   => date('d/m/Y')
+	// 	);
+	// 	add_row('like_record', $row,$school_id);
+	// 	echo json_encode(array("status"=>"1", "msg"=>"like successfully"));
 
 	
-	}
+	// }
 }
 
  

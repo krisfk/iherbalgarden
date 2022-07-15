@@ -365,10 +365,17 @@ else
         $('.activity-map ').addClass('active');
 
 
-        $('.sm-activity-sharing').addClass('active')
+        $('.sm-activity-sharing').addClass('active');
+
+
         $('.like-btn').click(function() {
+
+            var new_count = Number($('.like-num').html()) + 1;
+
             $.post("<?php echo get_site_url();?>/wp-json/api/like-school", {
-                    school_id: <?php echo $school_id;?>
+                    school_id: <?php echo $school_id;?>,
+                    count: new_count
+
                     // ,
                     // login_pw: $('#login-pw').val()
                 })
