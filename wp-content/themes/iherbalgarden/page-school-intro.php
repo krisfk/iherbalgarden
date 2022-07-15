@@ -233,7 +233,12 @@ if($school_logo_url)
                                             <img src="<?php echo get_template_directory_uri();?>/assets/images/like-btn.png"
                                                 alt="">
                                         </a>
-                                        <?php echo $school_id;?>
+                                        <?php //echo $school_id;
+                                        if($school_id==88)
+                                        {
+                                            echo '1';
+                                        }
+                                        ?>
                                         <div class="like-num">
 
                                             <?php
