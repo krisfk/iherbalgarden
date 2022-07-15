@@ -233,9 +233,11 @@ if($school_logo_url)
                                             <img src="<?php echo get_template_directory_uri();?>/assets/images/like-btn.png"
                                                 alt="">
                                         </a>
+                                        <?php echo $school_id;?>
                                         <div class="like-num">
 
                                             <?php
+
                                     $args = array('p' => $school_id, 'post_type' => 'school');
 
                                     $school = new WP_Query($args);
