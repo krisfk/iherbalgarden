@@ -223,7 +223,7 @@ if($school_logo_url)
                 </div> -->
                     <div class="col-lg-6 col-md-12 col-sm-12 col-12 mb-4">
 
-                        <table style="opacity:0">
+                        <table style="display:none;">
                             <tr>
                                 <td>
                                     <div class="">
