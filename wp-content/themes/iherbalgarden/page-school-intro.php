@@ -372,6 +372,9 @@ else
 
             var new_count = Number($('.like-num').html()) + 1;
 
+            $('.like-num').html(new_count);
+
+
             $.post("<?php echo get_site_url();?>/wp-json/api/like-school", {
                     school_id: <?php echo $school_id;?>,
                     count: new_count
