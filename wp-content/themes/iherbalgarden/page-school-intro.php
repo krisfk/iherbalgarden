@@ -235,10 +235,6 @@ if($school_logo_url)
                                                 alt="">
                                         </a>
                                         <?php //echo $school_id;
-                                        if($school_id==88)
-                                        {
-                                            // echo '1';
-                                        }
                                         ?>
                                         <?php
                                         // session_start();
