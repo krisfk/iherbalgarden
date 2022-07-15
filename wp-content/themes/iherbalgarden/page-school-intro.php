@@ -222,7 +222,7 @@ if($school_logo_url)
                 </div> -->
                     <div class="col-lg-6 col-md-12 col-sm-12 col-12 mb-4">
 
-                        <table style="display:none;">
+                        <table style="">
                             <tr>
                                 <td>
                                     <div class="">
@@ -240,40 +240,40 @@ if($school_logo_url)
                                         }
                                         ?>
                                         <div class="like-num">
-
+                                            test
                                             <?php
 
-                                    $args = array('p' => $school_id, 'post_type' => 'school');
+                                    // $args = array('p' => $school_id, 'post_type' => 'school');
 
-                                    $school = new WP_Query($args);
+                                    // $school = new WP_Query($args);
                                     
-                                    $count=0;
-                                    if($school->have_posts())
-                                    {
-                                        $school->the_post();
-                                        // $like_record = get_sub_field('like_record');
+                                    // $count=0;
+                                    // if($school->have_posts())
+                                    // {
+                                    //     $school->the_post();
+                                    //     // $like_record = get_sub_field('like_record');
 
-                                        if( have_rows('like_record') ){
+                                    //     if( have_rows('like_record') ){
 
-                                            while( have_rows('like_record') ) { 
-                                                        the_row();
+                                    //         while( have_rows('like_record') ) { 
+                                    //                     the_row();
 
-                                                        // if(get_sub_field('ip')==$userIP && get_sub_field('like_date')==date('d/m/Y'))
-                                                    // {
-                                                        $count++;
-                                                    // }
-                                        }
-                                    }
-                                    }
+                                    //                     // if(get_sub_field('ip')==$userIP && get_sub_field('like_date')==date('d/m/Y'))
+                                    //                 // {
+                                    //                     $count++;
+                                    //                 // }
+                                    //     }
+                                    // }
+                                    // }
 
-                                    if($school_id==88)
-                                    {
-                                        echo 6815+$count;
-                                    }
-                                    else
-                                    {
-                                        echo $count;
-                                    }
+                                    // if($school_id==88)
+                                    // {
+                                    //     echo 6815+$count;
+                                    // }
+                                    // else
+                                    // {
+                                    //     echo $count;
+                                    // }
 ?>
 
                                         </div>
