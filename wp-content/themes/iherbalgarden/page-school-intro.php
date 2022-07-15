@@ -237,8 +237,13 @@ if($school_logo_url)
                                         <?php //echo $school_id;
                                         ?>
                                         <?php
-                                        // session_start();
+                                        
+                                        
+                                        // $_SESSION['like'.$school_id] = array('count' => 1, 'registered' => time());
 
+                                        // if ((time() - $_SESSION['example']['registered']) > (60 * 30)) {
+                                        //     unset($_SESSION['example']);
+                                        // }
                                         ?>
                                         <div class="like-num">
 
@@ -373,7 +378,7 @@ else
 
             var new_count = Number($('.like-num').html()) + 1;
 
-            $('.like-num').html(new_count);
+            // $('.like-num').html(new_count);
 
 
             $.post("<?php echo get_site_url();?>/wp-json/api/like-school", {
