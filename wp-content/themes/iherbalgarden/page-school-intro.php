@@ -236,7 +236,7 @@ if($school_logo_url)
                                         <?php //echo $school_id;
                                         if($school_id==88)
                                         {
-                                            echo '1';
+                                            // echo '1';
                                         }
                                         ?>
                                         <div class="like-num">
@@ -265,7 +265,15 @@ if($school_logo_url)
                                         }
                                     }
                                     }
-                                    echo $count;
+
+                                    if($school_id==88)
+                                    {
+                                        echo 6815+$count;
+                                    }
+                                    else
+                                    {
+                                        echo $count;
+                                    }
 ?>
 
                                         </div>
