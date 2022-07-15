@@ -767,7 +767,7 @@ if($_SESSION['like'.$school_id])
 		echo json_encode(array("status"=>"1", "msg"=>"like successfully"));
 		update_field('like_count', $count,$school_id);
 	}
-
+	else
 	if((time() - $_SESSION['like'.$school_id]['registered']) < (60 * 1440) && $_SESSION['like'.$school_id]['click_count']>=5  )
 	{
 	 	echo json_encode(array("status"=>"-1", "msg"=>"你今天已Like了這間學校5次"));
@@ -790,18 +790,6 @@ else
 	
 
 
-	// update_field('like_count', $count,$school_id);
-
-
-	// $args = array('p' => $school_id, 'post_type' => 'school');
-	// $school = new WP_Query($args);
-	
-	// if($school->have_posts())
-	// {
-	// 	$school->the_post();
-	// 	update_field('like_count', $count);
-	// }
-	
 	
 
 	// # PHP7+
