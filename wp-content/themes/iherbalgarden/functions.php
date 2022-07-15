@@ -761,19 +761,19 @@ function like_school($request)
 
 if($_SESSION['like'.$school_id])
 {
-	//24 hour
-	if((time() - $_SESSION['like'.$school_id]['registered']) < (60 * 1440) && $_SESSION['like'.$school_id]['click_count']<5  ){
+	//24 hour 1440
+	if((time() - $_SESSION['like'.$school_id]['registered']) < (60 * 1) && $_SESSION['like'.$school_id]['click_count']<5  ){
 		$_SESSION['like'.$school_id] = array('click_count' => $_SESSION['like'.$school_id]['click_count']+1, 'registered' => time());
 		echo json_encode(array("status"=>"1", "msg"=>"like successfully"));
 		update_field('like_count', $count,$school_id);
 	}
 	else
-	if((time() - $_SESSION['like'.$school_id]['registered']) < (60 * 1440) && $_SESSION['like'.$school_id]['click_count']>=5  )
+	if((time() - $_SESSION['like'.$school_id]['registered']) < (60 * 1) && $_SESSION['like'.$school_id]['click_count']>=5  )
 	{
 	 	echo json_encode(array("status"=>"-1", "msg"=>"你今天已Like了這間學校5次"));
 	}
 
-	if((time() - $_SESSION['like'.$school_id]['registered']) >= (60 * 1440))
+	if((time() - $_SESSION['like'.$school_id]['registered']) >= (60 * 1))
 	{
 		$_SESSION['like'.$school_id] = array('click_count' => 1, 'registered' => time());
 		echo json_encode(array("status"=>"1", "msg"=>"like successfully"));
