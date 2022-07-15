@@ -91,7 +91,7 @@ if(!is_user_logged_in())
             <div class="green-tri"></div>
         </a>
 
-        <a href="<?php echo get_site_url();?>/school-intro/?sch=103" class="pin-btn pin-btn-10">
+        <a href="<?php echo get_site_url();?>/school-intro/?sch=814" class="pin-btn pin-btn-10">
             香港浸會大學附屬小學 <br>
             王錦輝中小學(小學部)
 
