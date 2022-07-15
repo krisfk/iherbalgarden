@@ -49,43 +49,43 @@ if(!is_user_logged_in())
 
             <div class="green-tri"></div>
         </a>
-        <a href="<?php echo get_site_url();?>/school-intro/?sch=98" class="pin-btn pin-btn-2">
+        <a href="<?php echo get_site_url();?>/school-intro/?sch=808" class="pin-btn pin-btn-2">
             潮陽百欣小學
 
             <div class="green-tri"></div>
         </a>
-        <a href="<?php echo get_site_url();?>/school-intro/?sch=100" class="pin-btn pin-btn-3">
+        <a href="<?php echo get_site_url();?>/school-intro/?sch=810" class="pin-btn pin-btn-3">
             大角嘴天主教小學
 
             <div class="green-tri"></div>
         </a>
-        <a href="<?php echo get_site_url();?>/school-intro/?sch=104" class="pin-btn pin-btn-4">
+        <a href="<?php echo get_site_url();?>/school-intro/?sch=815" class="pin-btn pin-btn-4">
             聖公會奉基小學
 
             <div class="green-tri"></div>
         </a>
 
-        <a href="<?php echo get_site_url();?>/school-intro/?sch=86" class="pin-btn pin-btn-5">
+        <a href="<?php echo get_site_url();?>/school-intro/?sch=807" class="pin-btn pin-btn-5">
             聖文德天主教小學
 
             <div class="green-tri"></div>
         </a>
-        <a href="<?php echo get_site_url();?>/school-intro/?sch=88" class="pin-btn pin-btn-6">
+        <a href="<?php echo get_site_url();?>/school-intro/?sch=816" class="pin-btn pin-btn-6">
             慈幼葉漢千禧小學
 
             <div class="green-tri"></div>
         </a>
-        <a href="<?php echo get_site_url();?>/school-intro/?sch=102" class="pin-btn pin-btn-7">
+        <a href="<?php echo get_site_url();?>/school-intro/?sch=813" class="pin-btn pin-btn-7">
             嗇色園主辦可信小學
 
             <div class="green-tri"></div>
         </a>
-        <a href="<?php echo get_site_url();?>/school-intro/?sch=99" class="pin-btn pin-btn-8">
+        <a href="<?php echo get_site_url();?>/school-intro/?sch=809" class="pin-btn pin-btn-8">
             新界婦孺福利會梁省德小學
 
             <div class="green-tri"></div>
         </a>
-        <a href="<?php echo get_site_url();?>/school-intro/?sch=116" class="pin-btn pin-btn-9">
+        <a href="<?php echo get_site_url();?>/school-intro/?sch=811" class="pin-btn pin-btn-9">
             保良局田家炳小學
 
             <div class="green-tri"></div>
