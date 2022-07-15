@@ -389,7 +389,7 @@ else
                     // login_pw: $('#login-pw').val()
                 })
                 .done(function(data) {
-                    // console.log(data);
+                    console.log(data);
                     if (data.status == 1) {
 
                         $('.like-num').html(Number($('.like-num').html()) + 1);
