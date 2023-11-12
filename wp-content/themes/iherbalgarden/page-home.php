@@ -62,15 +62,15 @@ get_header();
 
         <div class="mt-lg-5 mt-md-4 mt-sm-4 mt-4  text-center">
             <!-- <h4>參與本活動的小學：</h4> -->
-            <a href="<?php echo get_site_url();?>/activity-map" class="entry-btn">
+            <!-- <a href="<?php echo get_site_url();?>/activity-map" class="entry-btn">
 
                 <img class="" src="<?php echo get_template_directory_uri();?>/assets/images/school-login-home-btn.png"
                     alt="">
 
 
-            </a>
+            </a> -->
 
-            <a href="<?php echo get_site_url();?>/activity-map" class="entry-btn">
+            <a href="<?php echo get_site_url();?>/activity-map-2" class="entry-btn">
 
                 <img class="" src="<?php echo get_template_directory_uri();?>/assets/images/school-login-home-btn-1.png"
                     alt="">
