@@ -248,7 +248,7 @@ if($school_logo_url)
                                         <div class="like-num">
 
                                             <?php
-                                    echo get_field('like_count');
+                                    echo get_field('like_count') ?  get_field('like_count') : 0;
                                     // $args = array('p' => $school_id, 'post_type' => 'school');
 
                                     // $school = new WP_Query($args);
