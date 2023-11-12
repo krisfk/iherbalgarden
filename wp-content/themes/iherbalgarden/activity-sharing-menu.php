@@ -33,11 +33,20 @@ if(is_user_logged_in())
 
     <h2>百草園</h2>
     <ul class="">
-        <li><a href="<?php echo get_site_url();?>/activity-map" class="sm-activity-map">百草園地圖</a></li>
 
-        <li><a href="<?php echo get_site_url();?>/activity-sharing" class="sm-activity-sharing">參與學校</a></li>
+
+        <li><a href="<?php echo get_site_url();?>/activity-map-2" class="sm-activity-map">2023/24百草園地圖</a></li>
+
+        <li><a href="<?php echo get_site_url();?>/activity-sharing-2" class="sm-activity-sharing">2023/24參與學校</a></li>
+
+        <li><a href="<?php echo get_site_url();?>/activity-map" class="sm-activity-map">2021/22百草園地圖</a></li>
+
+        <li><a href="<?php echo get_site_url();?>/activity-sharing" class="sm-activity-sharing">2021/22參與學校</a></li>
+
+
+
+
         <li><a href="<?php echo get_site_url();?>/activity-sharing-2" class="sm-activity-sharing-2">觀賞藥園
-                <!-- 異地遊踪及媒體報導 -->
             </a></li>
     </ul>
 
