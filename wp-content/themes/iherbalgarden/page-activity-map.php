@@ -184,7 +184,7 @@ if(!is_user_logged_in())
             </div>
             <div class="col-lg-4 col-md-4 col-sm-6 col-6  mb-3">
                 <a href="<?php echo get_site_url();?>//activity-sharing-2/" class="map-a">
-                    <img class="w-100" src="http://64.227.13.14/iherbalgarden/wp-content/uploads/2021/12/map-pcs-11.jpg"
+                    <img class="w-100" src="<?php echo get_site_url();?>/wp-content/uploads/2021/12/map-pcs-11.jpg"
                         alt=""></a>
             </div>
 
