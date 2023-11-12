@@ -106,8 +106,8 @@ if(!is_user_logged_in())
             <div class="green-tri blue-green"></div>
         </a> -->
 
-
-        <a href="<?php echo get_site_url();?>//activity-sharing-2/" class="pin-btn pin-btn-11 blue-green">
+        <!-- http://64.227.13.14/iherbalgarden/activity-map/ -->
+        <a href="<?php echo get_site_url();?>/activity-map-2/" class="pin-btn pin-btn-11 blue-green">
             2023/24百草園
 
             <div class="green-tri blue-green"></div>
