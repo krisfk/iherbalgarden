@@ -55,18 +55,60 @@ if(!is_user_logged_in())
             <div class="green-tri"></div>
         </a>
 
+
+        <a href="<?php echo get_site_url();?>/school-intro/?sch=838&y=2023" class="pin-btn pin-btn-3">
+            天主教柏德學校
+
+            <div class="green-tri"></div>
+        </a>
+
+
+        <a href="<?php echo get_site_url();?>/school-intro/?sch=839&y=2023" class="pin-btn pin-btn-4">
+            嶺南大學香港同學會小學
+            <div class="green-tri"></div>
+        </a>
+
+
+
+
+        <a href="<?php echo get_site_url();?>/school-intro/?sch=840&y=2023" class="pin-btn pin-btn-5">
+            聖公會聖多馬小學
+            <div class="green-tri"></div>
+        </a>
+
+
+        <a href="<?php echo get_site_url();?>/school-intro/?sch=841&y=2023" class="pin-btn pin-btn-6">
+            聖公會基福小學
+            <div class="green-tri"></div>
+        </a>
+
+
+        <a href="<?php echo get_site_url();?>/school-intro/?sch=842&y=2023" class="pin-btn pin-btn-7">
+            中華傳道會呂明才小學
+            <div class="green-tri"></div>
+        </a>
+        <a href="<?php echo get_site_url();?>/school-intro/?sch=843&y=2023" class="pin-btn pin-btn-8">
+            香港仔聖伯多祿天主教小學
+            <div class="green-tri"></div>
+        </a>
+
+        <a href="<?php echo get_site_url();?>/school-intro/?sch=844&y=2023" class="pin-btn pin-btn-9">
+            香港南區官立小學
+            <div class="green-tri"></div>
+        </a>
+
+        <a href="<?php echo get_site_url();?>/school-intro/?sch=845&y=2023" class="pin-btn pin-btn-10">
+            香港中國婦女會丘佐榮學校
+            <div class="green-tri"></div>
+        </a>
+
+
+
+
+
+
+
         <!--
-        <a href="<?php echo get_site_url();?>/school-intro/?sch=810" class="pin-btn pin-btn-3">
-            大角嘴天主教小學
-
-            <div class="green-tri"></div>
-        </a>
-        <a href="<?php echo get_site_url();?>/school-intro/?sch=815" class="pin-btn pin-btn-4">
-            聖公會奉基小學
-
-            <div class="green-tri"></div>
-        </a>
-
         <a href="<?php echo get_site_url();?>/school-intro/?sch=807" class="pin-btn pin-btn-5">
             聖文德天主教小學
 
