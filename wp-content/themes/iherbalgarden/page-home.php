@@ -73,7 +73,7 @@ get_header();
             <div>
                 <a href="<?php echo get_site_url();?>/activity-map-2" class="entry-btn">
 
-                    <img class=""
+                    <img class="school-login-home-btn"
                         src="<?php echo get_template_directory_uri();?>/assets/images/school-login-home-btn-1.png"
                         alt="">
 
@@ -83,7 +83,7 @@ get_header();
             <div>
                 <a href="<?php echo get_site_url();?>/activity-map" class="entry-btn">
 
-                    <img class=""
+                    <img class="school-login-home-btn"
                         src="<?php echo get_template_directory_uri();?>/assets/images/school-login-home-btn-2.png"
                         alt="">
 
