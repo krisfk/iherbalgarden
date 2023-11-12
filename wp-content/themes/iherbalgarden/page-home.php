@@ -66,7 +66,7 @@ get_header();
 
                 <img class="" src="<?php echo get_template_directory_uri();?>/assets/images/school-login-home-btn.png"
                     alt="">
-                testtest
+
 
                 <!-- school-login-home-btn.jpg -->
             </a>
