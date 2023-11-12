@@ -68,7 +68,22 @@ get_header();
                     alt="">
 
 
-                <!-- school-login-home-btn.jpg -->
+            </a>
+
+            <a href="<?php echo get_site_url();?>/activity-map" class="entry-btn">
+
+                <img class="" src="<?php echo get_template_directory_uri();?>/assets/images/school-login-home-btn-1.png"
+                    alt="">
+
+
+            </a>
+
+            <a href="<?php echo get_site_url();?>/activity-map" class="entry-btn">
+
+                <img class="" src="<?php echo get_template_directory_uri();?>/assets/images/school-login-home-btn-2.png"
+                    alt="">
+
+
             </a>
 
         </div>
