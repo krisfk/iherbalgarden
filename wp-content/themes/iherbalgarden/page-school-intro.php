@@ -371,7 +371,7 @@ else
         $('.activity-map ').addClass('active');
 
 
-        $('.sm-activity-sharing-2023').addClass('active');
+        $('.sm-activity-sharing').addClass('active');
 
 
         $('.like-btn').click(function() {
