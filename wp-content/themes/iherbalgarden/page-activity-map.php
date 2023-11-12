@@ -28,7 +28,7 @@ if(!is_user_logged_in())
 {
 
 ?>
-        <div class="green-dot-line"></div>
+        <!-- <div class="green-dot-line"></div>
         <a href="<?php echo get_site_url();?>/activity-login"
             class="school-login-btn-2 mt-lg-4 mt-md-0 mt-sm-0 mt-0 mb-lg-0 mb-md-5 mb-sm-5 mb-5 ">
 
@@ -36,7 +36,7 @@ if(!is_user_logged_in())
 
             <img src="https://iherbalgarden.com/wp-content/themes/iherbalgarden/assets/images/school-login-btn.png"
                 alt="">
-        </a>
+        </a> -->
         <?php
 }
         ?>
