@@ -107,8 +107,8 @@ if(!is_user_logged_in())
         </a> -->
 
         <!-- <?php echo get_site_url();?>/activity-map/ -->
-        <a href="<?php echo get_site_url();?>/activity-map-2023/" class="pin-btn pin-btn-11 blue-green">
-            2023/24百草園
+        <a href="<?php echo get_site_url();?>/activity-map/" class="pin-btn pin-btn-11 blue-green">
+            2021/22百草園
 
             <div class="green-tri blue-green"></div>
         </a>
