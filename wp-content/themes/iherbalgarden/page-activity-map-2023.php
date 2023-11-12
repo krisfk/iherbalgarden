@@ -44,8 +44,8 @@ if(!is_user_logged_in())
     </h2>
 
     <div class="position-relative  desktop-map-div">
-        <a href="<?php echo get_site_url();?>/school-intro/?sch=836" class="pin-btn pin-btn-1">
-            油蔴地天主教小學（海泓道）[IHG23_111KLNYTM010-31]
+        <a href="<?php echo get_site_url();?>/school-intro/?sch=836&y=2023" class="pin-btn pin-btn-1">
+            油蔴地天主教小學（海泓道）
 
             <div class="green-tri"></div>
         </a>
