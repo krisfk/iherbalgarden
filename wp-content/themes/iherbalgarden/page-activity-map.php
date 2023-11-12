@@ -183,7 +183,7 @@ if(!is_user_logged_in())
                         alt=""></a>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-6 col-6  mb-3">
-                <a href="<?php echo get_site_url();?>//activity-sharing-2/" class="map-a">
+                <a href="<?php echo get_site_url();?>//activity-sharing-2023/" class="map-a">
                     <img class="w-100" src="<?php echo get_site_url();?>/wp-content/uploads/2021/12/map-pcs-11.jpg"
                         alt=""></a>
             </div>
