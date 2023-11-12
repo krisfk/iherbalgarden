@@ -49,11 +49,13 @@ if(!is_user_logged_in())
 
             <div class="green-tri"></div>
         </a>
-        <!-- <a href="<?php echo get_site_url();?>/school-intro/?sch=808" class="pin-btn pin-btn-2">
-            潮陽百欣小學
+        <a href="<?php echo get_site_url();?>/school-intro/?sch=837&y=2023" class="pin-btn pin-btn-2">
+            九龍塘學校（小學部）
 
             <div class="green-tri"></div>
         </a>
+
+        <!--
         <a href="<?php echo get_site_url();?>/school-intro/?sch=810" class="pin-btn pin-btn-3">
             大角嘴天主教小學
 
