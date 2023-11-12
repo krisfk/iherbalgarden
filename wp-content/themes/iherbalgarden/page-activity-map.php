@@ -100,13 +100,18 @@ if(!is_user_logged_in())
 
 
 
-        <a href="<?php echo get_site_url();?>//activity-sharing-2/" class="pin-btn pin-btn-11 blue-green">
+        <!-- <a href="<?php echo get_site_url();?>//activity-sharing-2/" class="pin-btn pin-btn-11 blue-green">
             觀賞藥園
 
             <div class="green-tri blue-green"></div>
+        </a> -->
+
+
+        <a href="<?php echo get_site_url();?>//activity-sharing-2/" class="pin-btn pin-btn-11 blue-green">
+            2023/24百草園
+
+            <div class="green-tri blue-green"></div>
         </a>
-
-
 
 
 
