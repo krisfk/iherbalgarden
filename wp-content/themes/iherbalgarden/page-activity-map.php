@@ -20,7 +20,7 @@ get_header();
 
 <div class="map-container position-relative mx-auto">
 
-    <h2 class="text-center map-title">百草園地圖
+    <h2 class="text-center map-title">2021/22 百草園地圖
 
         <?php
 
