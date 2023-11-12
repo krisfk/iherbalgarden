@@ -49,7 +49,7 @@ if(!is_user_logged_in())
 
             <div class="green-tri"></div>
         </a>
-        <a href="<?php echo get_site_url();?>/school-intro/?sch=808" class="pin-btn pin-btn-2">
+        <!-- <a href="<?php echo get_site_url();?>/school-intro/?sch=808" class="pin-btn pin-btn-2">
             潮陽百欣小學
 
             <div class="green-tri"></div>
@@ -96,7 +96,7 @@ if(!is_user_logged_in())
             王錦輝中小學(小學部)
 
             <div class="green-tri"></div>
-        </a>
+        </a> -->
 
 
 
