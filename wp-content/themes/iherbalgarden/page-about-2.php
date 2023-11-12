@@ -40,20 +40,20 @@ get_header();
                 <div class="row align-items-center gx-0">
                     <div class="col-4">
                         <a href="https://cmedforall.org" target="_blank"><img class="w-100"
-                                src="http://64.227.13.14/iherbalgarden/wp-content/uploads/2021/12/SUPPORT_LOGO_1.png"
+                                src="<?php echo get_site_url();?>/wp-content/uploads/2021/12/SUPPORT_LOGO_1.png"
                                 alt=""></a>
 
                     </div>
                     <div class="col-4">
 
                         <div><img class="w-100"
-                                src="http://64.227.13.14/iherbalgarden/wp-content/uploads/2021/12/SUPPORT_LOGO_2.png"
+                                src="<?php echo get_site_url();?>/wp-content/uploads/2021/12/SUPPORT_LOGO_2.png"
                                 alt=""></div>
                     </div>
 
                     <div class="col-4">
                         <div><img class="w-100"
-                                src="http://64.227.13.14/iherbalgarden/wp-content/uploads/2021/12/SUPPORT_LOGO_3.png"
+                                src="<?php echo get_site_url();?>/wp-content/uploads/2021/12/SUPPORT_LOGO_3.png"
                                 alt=""></d>
                         </div>
                     </div>

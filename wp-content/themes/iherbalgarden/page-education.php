@@ -56,7 +56,7 @@ get_header();
 
                 <!-- 
                 <img id="big-title-1" class="w-100 mb-5"
-                    src="http://64.227.13.14/iherbalgarden/wp-content/themes/iherbalgarden/assets/images/big-title-1.png"
+                    src="<?php echo get_site_url();?>/wp-content/themes/iherbalgarden/assets/images/big-title-1.png"
                     alt="">
 
                 <h2 class="text-center ">
@@ -69,7 +69,7 @@ get_header();
 
 
                         <img class="education-img"
-                            src="http://64.227.13.14/iherbalgarden/wp-content/uploads/2021/11/sun-g.jpg" alt="">
+                            src="<?php echo get_site_url();?>/wp-content/uploads/2021/11/sun-g.jpg" alt="">
 
                         <div class="mt-4">
                             人與大自然是遵循相同的規律 <br> <br>
@@ -81,7 +81,7 @@ get_header();
                         <h2 class="mb-3  deep-green  text-center">
                             病的三個階段: 未病、病、康復</h2>
                         <img class="education-img"
-                            src="http://64.227.13.14/iherbalgarden/wp-content/uploads/2021/11/3-sick.jpg" alt="">
+                            src="<?php echo get_site_url();?>/wp-content/uploads/2021/11/3-sick.jpg" alt="">
 
 
                         <div class="mt-4">
@@ -115,7 +115,7 @@ get_header();
                 <div class="text-center mb-5 mt-5">
                     <a href="javascript:void(0);" class="d-inline-block w-75 tips-banner-img">
                         <img class="w-100"
-                            src="http://64.227.13.14/iherbalgarden/wp-content/uploads/2021/11/Asset_CnMed.png" alt="">
+                            src="<?php echo get_site_url();?>/wp-content/uploads/2021/11/Asset_CnMed.png" alt="">
 
                     </a>
                 </div>
@@ -123,7 +123,7 @@ get_header();
 
 
                 <img id="big-title-2" class="w-100 mb-5"
-                    src="http://64.227.13.14/iherbalgarden/wp-content/themes/iherbalgarden/assets/images/big-title-2.png"
+                    src="<?php echo get_site_url();?>/wp-content/themes/iherbalgarden/assets/images/big-title-2.png"
                     alt="">
 
                 <h2 class="text-center">
@@ -136,15 +136,15 @@ get_header();
                 <div class="row mt-4">
 
                     <div class="col-4"><img class="w-100"
-                            src="http://64.227.13.14/iherbalgarden/wp-content/uploads/2021/11/food-1.jpg" alt="">
+                            src="<?php echo get_site_url();?>/wp-content/uploads/2021/11/food-1.jpg" alt="">
                         <div class="mt-2 text-center">本質</div>
                     </div>
                     <div class="col-4"><img class="w-100"
-                            src="http://64.227.13.14/iherbalgarden/wp-content/uploads/2021/11/food-2.jpg" alt="">
+                            src="<?php echo get_site_url();?>/wp-content/uploads/2021/11/food-2.jpg" alt="">
                         <div class="mt-2 text-center"> 生活應用</div>
                     </div>
                     <div class="col-4"><img class="w-100"
-                            src="http://64.227.13.14/iherbalgarden/wp-content/uploads/2021/11/food-3.jpg" alt="">
+                            src="<?php echo get_site_url();?>/wp-content/uploads/2021/11/food-3.jpg" alt="">
                         <div class="mt-2 text-center"> 醫理應用</div>
                     </div>
                 </div>
@@ -154,7 +154,7 @@ get_header();
                 <div class="row mt-0">
                     <div class="col-12">
                         <h5 class="text-center mb-3 mt-0">中藥以植物為主，佔80%或以上，所以一般稱「中草藥」，另有動物及礦物藥。</h5>
-                        <img class="w-100" src="http://64.227.13.14/iherbalgarden/wp-content/uploads/2021/12/many.jpg"
+                        <img class="w-100" src="<?php echo get_site_url();?>/wp-content/uploads/2021/12/many.jpg"
                             alt="">
                     </div>
 
@@ -172,14 +172,14 @@ get_header();
                         温、熱、寒、涼，合稱四氣，使用時需配合人的體質，取得平衡與配合。
 
                         <div class="mt-4"><img class="w-100"
-                                src="http://64.227.13.14/iherbalgarden/wp-content/uploads/2021/12/arrange.jpg" alt="">
+                                src="<?php echo get_site_url();?>/wp-content/uploads/2021/12/arrange.jpg" alt="">
                         </div>
 
                         <h4 class="deep-green mt-4">中草藥只有苦味嗎？</h4>
 
                         其實中藥可分為五味，酸、苦、甘、辛、鹹，另外亦可補加淡、澀味作細分。味道不同，作用亦有不同，一款中草藥兼含多種味，治療範圍亦會更廣。
                         <div class="mt-4"><img class="w-100"
-                                src="http://64.227.13.14/iherbalgarden/wp-content/uploads/2021/11/five-smell.jpg"
+                                src="<?php echo get_site_url();?>/wp-content/uploads/2021/11/five-smell.jpg"
                                 alt="">
                         </div>
 
@@ -203,24 +203,24 @@ get_header();
                 <div class="row">
 
                     <div class="col-lg-3 col-md-3 col-sm-6 col-6 ">
-                        <img class="w-100" src="http://64.227.13.14/iherbalgarden/wp-content/uploads/2021/12/team-1.png"
+                        <img class="w-100" src="<?php echo get_site_url();?>/wp-content/uploads/2021/12/team-1.png"
                             alt="">
                         <div class="text-center mt-2">主要治療藥物</div>
 
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-6 col-6 ">
-                        <img class="w-100" src="http://64.227.13.14/iherbalgarden/wp-content/uploads/2021/12/team-2.png"
+                        <img class="w-100" src="<?php echo get_site_url();?>/wp-content/uploads/2021/12/team-2.png"
                             alt="">
                         <div class="text-center mt-2">輔助君藥</div>
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-6 col-6 ">
-                        <img class="w-100" src="http://64.227.13.14/iherbalgarden/wp-content/uploads/2021/12/team-3.png"
+                        <img class="w-100" src="<?php echo get_site_url();?>/wp-content/uploads/2021/12/team-3.png"
                             alt="">
                         <div class="text-center mt-2">加強治療作用，消除或減弱毒性的藥物</div>
 
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-6 col-6 ">
-                        <img class="w-100" src="http://64.227.13.14/iherbalgarden/wp-content/uploads/2021/12/team-4.png"
+                        <img class="w-100" src="<?php echo get_site_url();?>/wp-content/uploads/2021/12/team-4.png"
                             alt="">
                         <div class="text-center mt-2">具有調和作用</div>
 
@@ -231,16 +231,16 @@ get_header();
                 <div class="text-center mb-5 mt-5">
                     <a href="javascript:void(0);" class="d-inline-block w-75 tips-banner-img">
                         <img class="w-100"
-                            src="http://64.227.13.14/iherbalgarden/wp-content/uploads/2021/11/Asset_CnHerbal.png"
+                            src="<?php echo get_site_url();?>/wp-content/uploads/2021/11/Asset_CnHerbal.png"
                             alt="">
                     </a>
                 </div>
 
                 <img id="big-title-3" class="w-100 mb-5 mt-5"
-                    src="http://64.227.13.14/iherbalgarden/wp-content/themes/iherbalgarden/assets/images/big-title-3.png"
+                    src="<?php echo get_site_url();?>/wp-content/themes/iherbalgarden/assets/images/big-title-3.png"
                     alt="">
                 <div class="text-left">
-                    <img src="http://64.227.13.14/iherbalgarden/wp-content/uploads/2021/12/right-choice-title.jpg"
+                    <img src="<?php echo get_site_url();?>/wp-content/uploads/2021/12/right-choice-title.jpg"
                         alt="">
                 </div>
                 <div class="row">
@@ -317,7 +317,7 @@ get_header();
 
 
                 <div class="text-left">
-                    <img src="http://64.227.13.14/iherbalgarden/wp-content/uploads/2021/12/right-choice-title-2.jpg"
+                    <img src="<?php echo get_site_url();?>/wp-content/uploads/2021/12/right-choice-title-2.jpg"
                         alt="">
                 </div>
                 <div class="row">

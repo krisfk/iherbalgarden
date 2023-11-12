@@ -106,7 +106,7 @@ if(!is_user_logged_in())
             <div class="green-tri blue-green"></div>
         </a> -->
 
-        <!-- http://64.227.13.14/iherbalgarden/activity-map/ -->
+        <!-- <?php echo get_site_url();?>/activity-map/ -->
         <a href="<?php echo get_site_url();?>/activity-map-2/" class="pin-btn pin-btn-11 blue-green">
             2023/24百草園
 
@@ -116,8 +116,8 @@ if(!is_user_logged_in())
 
 
 
-        <img class="w-100"
-            src="http://64.227.13.14/iherbalgarden/wp-content/themes/iherbalgarden/assets/images/island.png" alt="">
+        <img class="w-100" src="<?php echo get_site_url();?>/wp-content/themes/iherbalgarden/assets/images/island.png"
+            alt="">
     </div>
 
     <div class="container mobile-map">
@@ -125,18 +125,18 @@ if(!is_user_logged_in())
 
             <div class="col-lg-4 col-md-4 col-sm-6 col-6  mb-3">
                 <a href="<?php echo get_site_url();?>/school-intro/?sch=812" class="map-a"><img class="w-100"
-                        src="http://64.227.13.14/iherbalgarden/wp-content/uploads/2021/12/map-pcs-1.jpg" alt=""></a>
+                        src="<?php echo get_site_url();?>/wp-content/uploads/2021/12/map-pcs-1.jpg" alt=""></a>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-6 col-6  mb-3">
                 <a href="<?php echo get_site_url();?>/school-intro/?sch=808" class="map-a">
-                    <img class="w-100" src="http://64.227.13.14/iherbalgarden/wp-content/uploads/2021/12/map-pcs-2.jpg"
+                    <img class="w-100" src="<?php echo get_site_url();?>/wp-content/uploads/2021/12/map-pcs-2.jpg"
                         alt="">
                 </a>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-6 col-6  mb-3">
                 <a href="<?php echo get_site_url();?>/school-intro/?sch=810" class="map-a">
 
-                    <img class="w-100" src="http://64.227.13.14/iherbalgarden/wp-content/uploads/2021/12/map-pcs-3.jpg"
+                    <img class="w-100" src="<?php echo get_site_url();?>/wp-content/uploads/2021/12/map-pcs-3.jpg"
                         alt="">
                 </a>
             </div>
@@ -144,42 +144,42 @@ if(!is_user_logged_in())
 
             <div class="col-lg-4 col-md-4 col-sm-6 col-6  mb-3">
                 <a href="<?php echo get_site_url();?>/school-intro/?sch=815" class="map-a">
-                    <img class="w-100" src="http://64.227.13.14/iherbalgarden/wp-content/uploads/2021/12/map-pcs-4.jpg"
+                    <img class="w-100" src="<?php echo get_site_url();?>/wp-content/uploads/2021/12/map-pcs-4.jpg"
                         alt=""></a>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-6 col-6  mb-3">
                 <a href="<?php echo get_site_url();?>/school-intro/?sch=813" class="map-a">
 
-                    <img class="w-100" src="http://64.227.13.14/iherbalgarden/wp-content/uploads/2021/12/map-pcs-5.jpg"
+                    <img class="w-100" src="<?php echo get_site_url();?>/wp-content/uploads/2021/12/map-pcs-5.jpg"
                         alt=""></a>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-6 col-6  mb-3">
                 <a href="<?php echo get_site_url();?>/school-intro/?sch=807" class="map-a">
-                    <img class="w-100" src="http://64.227.13.14/iherbalgarden/wp-content/uploads/2021/12/map-pcs-6.jpg"
+                    <img class="w-100" src="<?php echo get_site_url();?>/wp-content/uploads/2021/12/map-pcs-6.jpg"
                         alt=""></a>
             </div>
 
 
             <div class="col-lg-4 col-md-4 col-sm-6 col-6  mb-3">
                 <a href="<?php echo get_site_url();?>/school-intro/?sch=809" class="map-a">
-                    <img class="w-100" src="http://64.227.13.14/iherbalgarden/wp-content/uploads/2021/12/map-pcs-7.jpg"
+                    <img class="w-100" src="<?php echo get_site_url();?>/wp-content/uploads/2021/12/map-pcs-7.jpg"
                         alt=""></a>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-6 col-6  mb-3">
                 <a href="<?php echo get_site_url();?>/school-intro/?sch=811" class="map-a">
-                    <img class="w-100" src="http://64.227.13.14/iherbalgarden/wp-content/uploads/2021/12/map-pcs-8.jpg"
+                    <img class="w-100" src="<?php echo get_site_url();?>/wp-content/uploads/2021/12/map-pcs-8.jpg"
                         alt=""></a>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-6 col-6  mb-3">
                 <a href="<?php echo get_site_url();?>/school-intro/?sch=814" class="map-a">
-                    <img class="w-100" src="http://64.227.13.14/iherbalgarden/wp-content/uploads/2021/12/map-pcs-9.jpg"
+                    <img class="w-100" src="<?php echo get_site_url();?>/wp-content/uploads/2021/12/map-pcs-9.jpg"
                         alt=""></a>
             </div>
 
 
             <div class="col-lg-4 col-md-4 col-sm-6 col-6  mb-3">
                 <a href="<?php echo get_site_url();?>/school-intro/?sch=816" class="map-a">
-                    <img class="w-100" src="http://64.227.13.14/iherbalgarden/wp-content/uploads/2021/12/map-pcs-10.jpg"
+                    <img class="w-100" src="<?php echo get_site_url();?>/wp-content/uploads/2021/12/map-pcs-10.jpg"
                         alt=""></a>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-6 col-6  mb-3">

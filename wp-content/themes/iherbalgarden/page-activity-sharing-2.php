@@ -94,7 +94,7 @@ get_header();
                 <div class="row mt-3">
 
                     <div class="col-3"><img class="w-100"
-                            src="http://64.227.13.14/iherbalgarden/wp-content/uploads/2021/11/Asset-8@2x-1.png" alt="">
+                            src="<?php echo get_site_url();?>/wp-content/uploads/2021/11/Asset-8@2x-1.png" alt="">
                     </div>
 
                     <div class="col-9">海外藥園的文字介紹 海外藥園的文字介紹海外藥園的文字介紹 海外藥園的文字介紹海外藥園的文字介紹 海外藥園的文字介紹海外藥園的文字介紹

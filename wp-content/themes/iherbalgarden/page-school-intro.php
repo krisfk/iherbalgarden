@@ -214,7 +214,7 @@ if($school_logo_url)
                         </table>
 
                         <!-- <img class="w-100"
-                        src="http://64.227.13.14/iherbalgarden/wp-content/uploads/2021/11/Asset-6@2x-1.png" alt=""> -->
+                        src="<?php echo get_site_url();?>/wp-content/uploads/2021/11/Asset-6@2x-1.png" alt=""> -->
 
                     </div>
                     <!-- 
