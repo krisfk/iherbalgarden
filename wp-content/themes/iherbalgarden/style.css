@@ -1022,6 +1022,20 @@ textarea {
   /* box-shadow: 2px 2px 2px rgb(44 64 25 / 60%); */
 }
 
+.page-activity-map-2023 .green-tri {
+  position: absolute;
+  bottom: -7px;
+  width: 13px;
+  left: 50%;
+  transform: translate(-50%, 0px);
+  width: 0px;
+  height: 0;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-top: 7px solid #54b8ac;
+  /* box-shadow: 2px 2px 2px rgb(44 64 25 / 60%); */
+}
+
 .green-tri.blue-green {
   border-top: 7px solid #54b8ac;
 }
