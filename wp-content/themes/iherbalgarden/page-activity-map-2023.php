@@ -171,7 +171,7 @@ if(!is_user_logged_in())
 
 
             <div class="col-lg-4 col-md-4 col-sm-6 col-6  mb-3">
-                <a href="<?php echo get_site_url();?>/school-intro/?sch=843&y=2023" class="map-a">
+                <a href="<?php echo get_site_url();?>/school-intro/?sch=840&y=2023" class="map-a">
                     <img class="w-100" src="<?php echo get_site_url();?>/wp-content/uploads/2023/11/map-pcs-6new.jpg"
                         alt=""></a>
             </div>
