@@ -136,19 +136,20 @@ if(!is_user_logged_in())
         <div class="row gx-3">
 
             <div class="col-lg-4 col-md-4 col-sm-6 col-6  mb-3">
-                <a href="<?php echo get_site_url();?>/school-intro/?sch=812" class="map-a"><img class="w-100"
+
+                <a href="<?php echo get_site_url();?>/school-intro/?sch=836&y=2023" class="map-a"><img class="w-100"
                         src="<?php echo get_site_url();?>/wp-content/uploads/2023/11/map-pcs-1new.jpg" alt=""></a>
             </div>
 
 
             <div class="col-lg-4 col-md-4 col-sm-6 col-6  mb-3">
-                <a href="<?php echo get_site_url();?>/school-intro/?sch=808" class="map-a">
+                <a href="<?php echo get_site_url();?>/school-intro/?sch=837&y=2023" class="map-a">
                     <img class="w-100" src="<?php echo get_site_url();?>/wp-content/uploads/2023/11/map-pcs-2new.jpg"
                         alt="">
                 </a>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-6 col-6  mb-3">
-                <a href="<?php echo get_site_url();?>/school-intro/?sch=810" class="map-a">
+                <a href="<?php echo get_site_url();?>/school-intro/?sch=838&y=2023" class="map-a">
 
                     <img class="w-100" src="<?php echo get_site_url();?>/wp-content/uploads/2023/11/map-pcs-3new.jpg"
                         alt="">
@@ -157,42 +158,42 @@ if(!is_user_logged_in())
 
 
             <div class="col-lg-4 col-md-4 col-sm-6 col-6  mb-3">
-                <a href="<?php echo get_site_url();?>/school-intro/?sch=815" class="map-a">
+                <a href="<?php echo get_site_url();?>/school-intro/?sch=839&y=2023" class="map-a">
                     <img class="w-100" src="<?php echo get_site_url();?>/wp-content/uploads/2023/11/map-pcs-4new.jpg"
                         alt=""></a>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-6 col-6  mb-3">
-                <a href="<?php echo get_site_url();?>/school-intro/?sch=813" class="map-a">
+                <a href="<?php echo get_site_url();?>/school-intro/?sch=840&y=2023" class="map-a">
 
                     <img class="w-100" src="<?php echo get_site_url();?>/wp-content/uploads/2023/11/map-pcs-5new.jpg"
                         alt=""></a>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-6 col-6  mb-3">
-                <a href="<?php echo get_site_url();?>/school-intro/?sch=807" class="map-a">
+                <a href="<?php echo get_site_url();?>/school-intro/?sch=841&y=2023" class="map-a">
                     <img class="w-100" src="<?php echo get_site_url();?>/wp-content/uploads/2023/11/map-pcs-6new.jpg"
                         alt=""></a>
             </div>
 
 
             <div class="col-lg-4 col-md-4 col-sm-6 col-6  mb-3">
-                <a href="<?php echo get_site_url();?>/school-intro/?sch=809" class="map-a">
+                <a href="<?php echo get_site_url();?>/school-intro/?sch=842&y=2023" class="map-a">
                     <img class="w-100" src="<?php echo get_site_url();?>/wp-content/uploads/2023/11/map-pcs-7new.jpg"
                         alt=""></a>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-6 col-6  mb-3">
-                <a href="<?php echo get_site_url();?>/school-intro/?sch=811" class="map-a">
+                <a href="<?php echo get_site_url();?>/school-intro/?sch=843&y=2023" class="map-a">
                     <img class="w-100" src="<?php echo get_site_url();?>/wp-content/uploads/2023/11/map-pcs-8new.jpg"
                         alt=""></a>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-6 col-6  mb-3">
-                <a href="<?php echo get_site_url();?>/school-intro/?sch=814" class="map-a">
+                <a href="<?php echo get_site_url();?>/school-intro/?sch=844&y=2023" class="map-a">
                     <img class="w-100" src="<?php echo get_site_url();?>/wp-content/uploads/2023/11/map-pcs-9new.jpg"
                         alt=""></a>
             </div>
 
 
             <div class="col-lg-4 col-md-4 col-sm-6 col-6  mb-3">
-                <a href="<?php echo get_site_url();?>/school-intro/?sch=816" class="map-a">
+                <a href="<?php echo get_site_url();?>/school-intro/?sch=845&y=2023" class="map-a">
                     <img class="w-100" src="<?php echo get_site_url();?>/wp-content/uploads/2023/11/map-pcs-10new.jpg"
                         alt=""></a>
             </div>
