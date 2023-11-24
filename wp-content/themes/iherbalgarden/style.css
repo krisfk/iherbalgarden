@@ -974,7 +974,9 @@ textarea {
 }
 
 .pin-btn-12 .green-tri {
-  background: #fa7442;
+  /* background: #fa7442; */
+  border-top: 7px solid #54b8ac;
+  border-top: 7px solid #fa7442 !important;
 }
 
 .pin-btn-11.blue-green {
