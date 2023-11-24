@@ -906,6 +906,19 @@ textarea {
   transition: 0.2s all;
 }
 
+.page-activity-map-2023 .pin-btn {
+  display: inline-block;
+  position: absolute;
+  background: rgb(85 170 220 / 1);
+  color: #fff;
+  font-size: 0.9rem;
+  padding: 0.1rem 0.5rem;
+  text-decoration: none;
+  border-radius: 0.3rem;
+  box-shadow: 2px 2px 2px rgb(44 64 25 / 34%);
+  transition: 0.2s all;
+}
+
 .pin-btn:hover {
   opacity: 0.85;
   color: #fff;
