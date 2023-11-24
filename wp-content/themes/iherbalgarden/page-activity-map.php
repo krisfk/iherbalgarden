@@ -115,7 +115,7 @@ if(!is_user_logged_in())
 
 
 
-        <a href="<?php echo get_site_url();?>/activity-sharing-2/" class="pin-btn pin-btn-12 blue-green">
+        <a href="<?php echo get_site_url();?>/activity-sharing-2/" class="pin-btn pin-btn-12 orange">
             觀賞藥園
 
             <div class="green-tri blue-green"></div>

@@ -159,6 +159,15 @@ if(!is_user_logged_in())
 
 
 
+        <a href="<?php echo get_site_url();?>/activity-map-2/" class="pin-btn pin-btn-12 blue-green">
+            2021/22百草園
+
+            <div class="green-tri blue-green"></div>
+        </a>
+
+
+
+
 
         <img class="w-100" src="<?php echo get_site_url();?>/wp-content/themes/iherbalgarden/assets/images/island.png"
             alt="">
