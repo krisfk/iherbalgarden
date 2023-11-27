@@ -37,12 +37,14 @@ if(is_user_logged_in())
 
         <li><a href="<?php echo get_site_url();?>/activity-map-2" class="sm-activity-map-2023">2023/24百草園地圖</a></li>
 
-        <li><a href="<?php echo get_site_url();?>/activity-sharing-2" class="sm-activity-sharing-2023">2023/24參與學校</a>
+        <li><a href="<?php echo get_site_url();?>/activity-sharing?y=2023"
+                class="sm-activity-sharing-2023">2023/24參與學校</a>
         </li>
 
         <li><a href="<?php echo get_site_url();?>/activity-map" class="sm-activity-map">2021/22百草園地圖</a></li>
 
-        <li><a href="<?php echo get_site_url();?>/activity-sharing" class="sm-activity-sharing">2021/22參與學校</a></li>
+        <li><a href="<?php echo get_site_url();?>/activity-sharing?y=2021" class="sm-activity-sharing">2021/22參與學校</a>
+        </li>
 
 
 
