@@ -108,8 +108,31 @@ get_header();
         $('.activity-map ').addClass('active');
 
 
+
         $('.activity-sharing').addClass('active');
+
+
+        <?php
+        
+        if($_GET['y']=='2023')
+        {
+?>
+        $('.sm-activity-sharing-2023').addClass('active');
+
+        <?php
+        }
+        
+
+        if($_GET['y']=='2021')
+        {
+            ?>
         $('.sm-activity-sharing').addClass('active');
+
+        <?php
+                   
+        }
+
+        ?>
 
     })
     </script>
