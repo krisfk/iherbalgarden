@@ -52,12 +52,11 @@ get_header();
                     'post_type' => 'school',    //custom post type
                     'posts_per_page' => -1,       // get all posts
                     'meta_query' => array(
-                        '0' => array(
+                        array(
                             'key' => 'participate_year',
                             'value' => '2023',
                             'compare' => '=',
-                        ),
-                        'relation' => 'AND',
+                        )
                     ),
 
                  );
