@@ -50,7 +50,13 @@ get_header();
                 
                 $args = array(
                     'post_type' => 'school',    //custom post type
-                    'posts_per_page' => -1       // get all posts
+                    'posts_per_page' => -1,       // get all posts
+                    'meta_query' => array(
+                            'key' => 'participate_year',
+                            'value' => '2023',
+                            'compare' => '=',
+                    ),
+
                  );
         
                    $query = new WP_Query( $args );
