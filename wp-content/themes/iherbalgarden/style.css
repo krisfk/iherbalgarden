@@ -1155,6 +1155,15 @@ textarea {
 }
 
 @media only screen and (max-width: 991px) {
+  .activity-manage-btn {
+    display: inline-block;
+    background: #375118;
+    padding: 0.2rem 1rem;
+    color: #fff !important;
+    text-decoration: none;
+    margin: 1rem 0 0 0;
+    /* margin: 0 0 0 1rem; */
+  }
   .mobile-menu-btn {
     display: block;
   }
