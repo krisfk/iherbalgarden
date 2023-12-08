@@ -1155,6 +1155,9 @@ textarea {
 }
 
 @media only screen and (max-width: 991px) {
+  .msg-container {
+    margin: 120px 0 0 0;
+  }
   .activity-manage-btn {
     display: inline-block;
     background: #375118;
