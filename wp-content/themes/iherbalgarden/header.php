@@ -191,7 +191,7 @@ echo'</li>';
                 // echo $nickname;
                 ?>
 
-            <div class="container mt-4 mb-2 msg-container">
+            <div class="container mb-2 msg-container">
                 <div class="row justify-content-center text-center">
                     <div class="col-10 mb-4">你好，<?php echo $user_nickname;?>的同學！ <a href="javascript:void(0);"
                             class="school-logout-btn">登出</a>
