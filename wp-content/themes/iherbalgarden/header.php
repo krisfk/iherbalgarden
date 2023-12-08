@@ -264,7 +264,7 @@ echo'</li>';
                                 show_dialog(data.msg);
 
                                 window.location =
-                                    "<?php echo get_site_url();?>/activity-map/";
+                                    "<?php echo get_site_url();?>/activity-map-2023/";
                             }
 
 
