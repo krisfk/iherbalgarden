@@ -45,6 +45,85 @@ get_header();
                 $email  = $_POST['email'];
                 $found=false;
 
+                if($email=='kwokngawai@ycps.edu.hk')
+                {
+                    $found=true;
+                    $school_name='油蔴地天主教小學(海泓道)';
+                    $login_username="ycpshwr-admin";
+                    $password="2nxzq7";
+                }
+                
+                if($email=='wtyip@ktsps.edu.hk')
+                {
+                    $found=true;
+                    $school_name='九龍塘學校(小學部)';
+                    $login_username="ktsps-admin";
+                    $password="wKgAxr";
+                }
+                
+                if($email=='heidiyylam@yahoo.com.hk')
+                {
+                    $found=true;
+                    $school_name='天主教柏德學校';
+                    $login_username="bpcs-admin";
+                    $password="tzp8bu";
+                }
+                if($email=='lslui@luaaps.edu.hk')
+                {
+                    $found=true;
+                    $school_name='嶺南大學香港同學會小學';
+                    $login_username="luaaps-admin";
+                    $password="WgSpBS";
+                }
+                if($email=='llh@skhstthomas.edu.hk')
+                {
+                    $found=true;
+                    $school_name='聖公會聖多馬小學';
+                    $login_username="sttps-admin";
+                    $password="pPU8cr";
+                }
+                if($email=='ccy1@keifook.edu.hk')
+                {
+                    $found=true;
+                    $school_name='聖公會基福小學';
+                    $login_username="kfps-admin";
+                    $password="2fAFWR";
+                }
+                if($email=='pmshim@cneclmc.edu.hk')
+                {
+                    $found=true;
+                    $school_name='中華傳道會呂明才小學';
+                    $login_username="lmcps-admin";
+                    $password="w7XRLf";
+                }
+
+
+                if($email=='aspcps_whl@aspcps.edu.hk')
+                {
+                    $found=true;
+                    $school_name='香港仔聖伯多祿天主教小學';
+                    $login_username="ascps-admin";
+                    $password="LUrTZk";
+                }
+
+
+                if($email=='wms@hksdgps.onmicrosoft.com')
+                {
+                    $found=true;
+                    $school_name='香港南區官立小學';
+                    $login_username="sdgps-admin";
+                    $password="3RDxzQ";
+                }
+                if($email=='hkechanc@hkcwc-htyps.edu.hk')
+                {
+                    $found=true;
+                    $school_name='香港中國婦女會丘佐榮學校';
+                    $login_username="htyps-admin";
+                    $password="3RDxzQ";
+                }
+             
+
+                //
                 if($email=='krisfk@gmail.com')
                 {
                     $found=true;
@@ -52,6 +131,7 @@ get_header();
                     $login_username="xxx";
                     $password="yyy";
                 }
+
                 if($email=='mfkwok@sbcps.edu.hk')
                 {
                     $found=true;
