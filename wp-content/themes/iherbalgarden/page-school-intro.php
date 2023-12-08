@@ -45,7 +45,12 @@ session_start();
             </h2> -->
 
 
-                <a href="<?php echo get_site_url();?>/activity-sharing" class="prev-page-btn mt-0 mb-3">上一頁</a>
+                <!-- <a href="<?php echo get_site_url();?>/activity-sharing" class="prev-page-btn mt-0 mb-3">上一頁</a> -->
+
+                <a href="javascript:void(0);" onclick="window.history.go(-1); return false;"
+                    class="prev-page-btn mt-0 mb-3">上一頁</a>
+
+
                 <?php
 
 $school_id = $_GET['sch'];
