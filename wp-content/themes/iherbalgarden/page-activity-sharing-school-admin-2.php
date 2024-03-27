@@ -69,7 +69,7 @@ get_header();
                         <div class="preview-div" style="<?php echo !$mid_report_id ? 'display:none;':''; ?>">
                             <table>
                                 <tr>
-                                    <td><img class="preview-img" src="<?php 
+                                    <td>1<img class="preview-img" src="<?php 
                                             
                                            
                                             $file_src = wp_get_attachment_url($mid_report_id);
