@@ -46,7 +46,7 @@ get_header();
                 </div>
 
                 <?php
-                echo 9999;
+                echo $school_id;
                 $args = array('p' => $school_id, 'post_type' => 'school');
                 $school = new WP_Query($args);
                 if($school->have_posts())
