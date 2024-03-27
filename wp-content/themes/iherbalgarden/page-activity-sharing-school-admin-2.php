@@ -51,7 +51,7 @@ get_header();
                 $school = new WP_Query($args);
                 if($school->have_posts())
                 {
-                    echo 999;
+                    // echo 999;
                     $school->the_post();
 
                     $mid_report_id = get_field('school_mid_report');
