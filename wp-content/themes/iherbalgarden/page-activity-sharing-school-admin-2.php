@@ -46,11 +46,12 @@ get_header();
                 </div>
 
                 <?php
-                echo $school_id;
+                // echo $school_id;
                 $args = array('p' => $school_id, 'post_type' => 'school');
                 $school = new WP_Query($args);
                 if($school->have_posts())
                 {
+                    echo 999;
                     $school->the_post();
 
                     $mid_report_id = get_field('school_mid_report');
