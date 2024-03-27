@@ -46,6 +46,7 @@ get_header();
                 </div>
 
                 <?php
+                echo $school_id;
                 $args = array('p' => $school_id, 'post_type' => 'school');
                 $school = new WP_Query($args);
                 if($school->have_posts())
@@ -69,7 +70,7 @@ get_header();
                         <div class="preview-div" style="<?php echo !$mid_report_id ? 'display:none;':''; ?>">
                             <table>
                                 <tr>
-                                    <td>1<img class="preview-img" src="<?php 
+                                    <td><img class="preview-img" src="<?php 
                                             
                                            
                                             $file_src = wp_get_attachment_url($mid_report_id);
